@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Container{
+    @apply container mx-auto px-2 xl:px-6 my-4
+}
+
+.Button {
+    @apply flex items-center gap-x-1 font-[500] hover:bg-bgBlack duration-300 py-1 px-3 rounded-[20px] w-fit
+}
+
+.MainButton {
+    @apply font-[500] bg-bgBlack py-1 px-6 rounded-md w-fit
+}
